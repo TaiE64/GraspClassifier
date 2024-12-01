@@ -34,6 +34,10 @@ This project demonstrates a simulation of a PR2 robotic gripper using **PyBullet
 ---
 
 ## **Usage**
+### **Function Parameters**
+**where** - Select the direction around the object to generate random grasp
+**batch_size** - Number of grasps to simulate and save the data in `data.csv`
+![Image Description](pic/Grasp_Direction.png)
 
 ### **Run Single Grasp in GUI**
 For debugging or visualizing the grasping process, use:
@@ -61,7 +65,8 @@ GUI_DataCollection(where,batch_size=100)
 ```
 - Simulates 100 grasps at selected direction with GUI rendering.
 - Displays the gripper's motion for each grasp.
-
+- Saves the data in `data.csv`.
+  
 ---
 
 ## **Data Structure**

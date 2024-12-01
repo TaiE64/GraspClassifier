@@ -129,7 +129,6 @@ Ori_x,Ori_y,Ori_z,Ori_w,Pos_x,Pos_y,Pos_z,Obj_Pos_x,Obj_Pos_y,Obj_Pos_z,Label
 
 ## **Future Improvements**
 - Add support for different object shapes and sizes.
-- Enhance grasp evaluation by incorporating force and torque sensors.
 - Introduce reinforcement learning for better grasping strategies.
 
 ---

@@ -39,7 +39,7 @@ This project demonstrates a simulation of a PR2 robotic gripper using **PyBullet
   
 **batch_size** - Number of grasps to simulate and save the data in `data.csv`
   
-<img src="pic/Grasp_Direction.png" alt="Select the direction around the object to generate random grasp" width="300" />  
+<img src="pic/Grasp_Direction.png" alt="Select the direction around the object to generate random grasp" width="400" />  
 
 
 ---

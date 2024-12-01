@@ -26,8 +26,8 @@ This project demonstrates a simulation of a PR2 robotic gripper using **PyBullet
 
 ## **Dependencies**
 - Python 3.6+
-- Download **env_requirement.txt** .
-   Run the following command to install all the packages:
+- Download **env_requirement.txt**.  
+  Run the following command to install all the packages:
    ```python
    pip install -r requirements.txt
    ```

@@ -38,9 +38,9 @@ This project demonstrates a simulation of a PR2 robotic gripper using **PyBullet
 ### **Run Single Grasp in GUI**
 For debugging or visualizing the grasping process, use:
 ```python
-run_GUI_Once()
+run_GUI_Once(where)
 ```
-This will load the environment, perform a single grasp, and display the simulation in a GUI.
+This will load the environment, perform a single grasp at selected direction, and display the simulation in a GUI.
 
 ---
 
@@ -49,17 +49,17 @@ This will load the environment, perform a single grasp, and display the simulati
 #### **Without GUI (Headless Mode)**
 For faster batch data collection:
 ```python
-NoGUI_DataCollection(batch_size=100)
+NoGUI_DataCollection(where,batch_size=100)
 ```
-- Simulates 100 grasps without rendering the GUI.
+- Simulates 100 grasps at selected direction without rendering the GUI.
 - Saves the data in `data.csv`.
 
 #### **With GUI**
 To visualize each grasp while collecting data:
 ```python
-GUI_DataCollection(batch_size=50)
+GUI_DataCollection(where,batch_size=100)
 ```
-- Simulates 50 grasps with GUI rendering.
+- Simulates 100 grasps at selected direction with GUI rendering.
 - Displays the gripper's motion for each grasp.
 
 ---

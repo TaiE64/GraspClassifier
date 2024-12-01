@@ -41,15 +41,15 @@ This project demonstrates a simulation of a PR2 robotic gripper using **PyBullet
   
 ![Image Description](pic/Grasp_Direction.png)  
 
+---
+  
 ### **Run Single Grasp in GUI**
 For debugging or visualizing the grasping process, use:
 ```python
 run_GUI_Once(where)
 ```
-This will load the environment, perform a single grasp at selected direction, and display the simulation in a GUI.
-
----
-
+This will load the environment, perform a single grasp at selected direction, and display the simulation in a GUI.  
+  
 ### **Batch Data Collection**
 
 #### **Without GUI (Headless Mode)**
